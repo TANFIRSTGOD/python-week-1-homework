@@ -7,8 +7,9 @@ def do_something(x):
 
 x = int(input())
 
+print(do_something(x))
+
 try:
     do_something(x) # บรรทัดน􀁦ีหา้ มแก้
 except ZeroDivisionError:
-    # เกิดข􀁦ึนเม􀁣ือ x = 0
-    print('Input value is more than length of the list')
+    print('Input value is less than length of the list')
