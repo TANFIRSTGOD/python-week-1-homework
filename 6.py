@@ -13,4 +13,4 @@ def lcm(x,y):
                 if i == v:
                     return(v)
 
-print(lcm(24,36))
+print(lcm(128,324))
